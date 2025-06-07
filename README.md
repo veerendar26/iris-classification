@@ -1,48 +1,53 @@
 # iris-classification
-# 🌸 Iris Flower Classification
+# 🌸 Iris Flower Classification - Streamlit Web App
 
-A simple machine learning project to classify Iris flower species using the popular Iris dataset. Implemented with Random Forest Classifier and enhanced with visualizations for better interpretability.
-
----
-
-## 📌 Project Description
-
-This project uses a supervised machine learning model to classify flowers into one of three species:
-- Setosa
-- Versicolor
-- Virginica
-
-The dataset includes 150 samples with the following features:
-- Sepal length
-- Sepal width
-- Petal length
-- Petal width
+This is a simple and interactive web application that classifies Iris flower species based on user-input flower measurements. Built using Python and Streamlit, it leverages a Random Forest model trained on the classic Iris dataset.
 
 ---
 
-## 🔍 Objectives
+## 🔗 Live Demo
 
-- Train and evaluate a Random Forest model on the Iris dataset
-- Visualize feature relationships using pair plots
-- Display classification results using a confusion matrix
-- Show feature importance using a bar chart
+Try the live app here:  
+https://iris-classification-virtualization.streamlit.app/
 
 ---
 
-## 🧠 Technologies Used
+## 🧠 About the Project
 
-- Python
-- Scikit-learn
-- Pandas
-- Matplotlib
-- Seaborn
+- Uses the **Iris dataset** with features: sepal length, sepal width, petal length, petal width.
+- Predicts the species: **Setosa**, **Versicolor**, or **Virginica**.
+- Implements a **Random Forest Classifier** for prediction.
+- Interactive sliders let users input measurements and get real-time predictions.
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run Locally
 
-1. Clone the repository:
+1. Clone the repo:
    ```bash
    git clone https://github.com/veerendar26/iris-classification.git
    cd iris-classification
+2.Install Vitual Environment:
+   python -m venv venv
+   .\venv\Scripts\activate 
+3.Install Dependencies:
+   pip install -r requirements.txt
+4.Run the App:
+   streamlit run app.py
+5.Project Structure:
+
+
+├── app.py             # Streamlit app code
+├── requirements.txt   # Dependencies list
+├── README.md          # Project documentation
+└── ...
+## 📚 Dataset
+
+Classic Iris dataset from UCI Machine Learning Repository
+https://archive.ics.uci.edu/ml/datasets/iris
+
+
+
+
+
 
